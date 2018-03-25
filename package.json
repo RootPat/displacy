@@ -2,7 +2,7 @@
   "name": "Part of Speech Finder",
   "version": "1.0.2",
   "engines": {
-    "node": "8.9.4",
+    "node": "6.10.2",
   "description": "Find the part of speech of your text",
   "main": "index.jade",
   "scripts": {
