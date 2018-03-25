@@ -4,6 +4,13 @@
 
 'use strict';
 
+const displacy = new displaCy('https://gentle-ocean-13835.herokuapp.com/', {
+    container: '#displacy',
+    format: 'spacy',
+    distance: 300,
+    offsetX: 100
+});
+
 class displaCy {
     constructor (api, options) {
         this.api = api;
